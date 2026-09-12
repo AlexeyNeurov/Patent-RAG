@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Patent RAG</title>
+  <desc id="desc">Интеллектуальный поиск по патентам РФ</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a35"/>
+      <stop offset="0.55" stop-color="#103c70"/>
+      <stop offset="1" stop-color="#2764a6"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#62d7ff"/>
+      <stop offset="1" stop-color="#8b7cff"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="1090" cy="-25" r="190" fill="#4c83c3" opacity=".18"/>
+  <circle cx="1010" cy="330" r="165" fill="#7769db" opacity=".13"/>
+  <path d="M0 280 C230 235 330 330 560 276 S930 218 1200 270 V320 H0Z" fill="#67c9ff" opacity=".06"/>
+
+  <g opacity=".5" stroke="#86dfff" stroke-width="2">
+    <path d="M870 80 L1015 54 L1105 130 L1042 238 L894 222 L825 148 Z"/>
+    <path d="M870 80 L894 222 M1015 54 L1042 238 M825 148 L1105 130 M870 80 L1042 238"/>
+  </g>
+  <g fill="url(#accent)" filter="url(#glow)">
+    <circle cx="870" cy="80" r="8"/>
+    <circle cx="1015" cy="54" r="10"/>
+    <circle cx="1105" cy="130" r="8"/>
+    <circle cx="1042" cy="238" r="11"/>
+    <circle cx="894" cy="222" r="7"/>
+    <circle cx="825" cy="148" r="10"/>
+  </g>
+
+  <g transform="translate(92 72)">
+    <rect width="82" height="102" rx="12" fill="none" stroke="#7ee3ff" stroke-width="4"/>
+    <path d="M20 28 H62 M20 48 H62 M20 68 H49" stroke="#7ee3ff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="72" cy="87" r="27" fill="#102f58" stroke="#a79bff" stroke-width="5"/>
+    <path d="M91 106 L108 123" stroke="#a79bff" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <text x="235" y="135" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="1">Patent RAG</text>
+  <text x="238" y="184" fill="#bfeaff" font-family="Segoe UI, Arial, sans-serif" font-size="24">Семантика · BM25 · граф цитирований</text>
+  <rect x="238" y="213" width="455" height="2" fill="url(#accent)" opacity=".75"/>
+  <text x="238" y="252" fill="#d8eaff" font-family="Segoe UI, Arial, sans-serif" font-size="20">Интеллектуальный поиск по патентам РФ</text>
+</svg>
