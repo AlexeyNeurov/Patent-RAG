@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/images/hero.svg" alt="Patent RAG — интеллектуальный поиск по патентам РФ" width="100%">
+  <img src="docs/hero.svg" alt="Patent RAG — интеллектуальный поиск по патентам РФ" width="100%">
 
   # Patent RAG
 
@@ -103,14 +103,11 @@ streamlit run app.py
 
 ```text
 patent-rag/
-├── .github/
-│   ├── ISSUE_TEMPLATE/       # шаблоны задач и ошибок
-│   └── workflows/            # базовая CI-проверка Python
 ├── data/
 │   └── README.md             # контракт и размещение локального индекса
 ├── docs/
-│   ├── architecture.md       # устройство поискового конвейера
-│   └── images/               # графика README и материалы проекта
+│   └── architecture.md       # устройство поискового конвейера
+│   
 ├── src/
 │   └── patent_rag/
 │       ├── __init__.py
